@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33F94BBDF56C447EA903E728 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD18B3D598F4C2D8C448454 /* libPods.a */; };
+		ED3DAE851A3EB0650096512E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3DAE841A3EB0650096512E /* main.m */; };
+		ED3DAE881A3EB0650096512E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3DAE871A3EB0650096512E /* AppDelegate.m */; };
+		ED3DAE8B1A3EB0650096512E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3DAE8A1A3EB0650096512E /* ViewController.m */; };
+		ED3DAE8E1A3EB0650096512E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3DAE8C1A3EB0650096512E /* Main.storyboard */; };
+		ED3DAE901A3EB0650096512E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED3DAE8F1A3EB0650096512E /* Images.xcassets */; };
+		ED3DAE931A3EB0650096512E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED3DAE911A3EB0650096512E /* LaunchScreen.xib */; };
+		ED3DAE9F1A3EB0650096512E /* OAuthFitbitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3DAE9E1A3EB0650096512E /* OAuthFitbitTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED3DAE991A3EB0650096512E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED3DAE771A3EB0650096512E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED3DAE7E1A3EB0650096512E;
+			remoteInfo = OAuthFitbitTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C8ED27B48A24D4DB3CA7251 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		ABD18B3D598F4C2D8C448454 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3DAE7F1A3EB0650096512E /* OAuthFitbitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OAuthFitbitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3DAE831A3EB0650096512E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED3DAE841A3EB0650096512E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED3DAE861A3EB0650096512E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED3DAE871A3EB0650096512E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED3DAE891A3EB0650096512E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED3DAE8A1A3EB0650096512E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED3DAE8D1A3EB0650096512E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED3DAE8F1A3EB0650096512E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ED3DAE921A3EB0650096512E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ED3DAE981A3EB0650096512E /* OAuthFitbitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OAuthFitbitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3DAE9D1A3EB0650096512E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED3DAE9E1A3EB0650096512E /* OAuthFitbitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OAuthFitbitTestTests.m; sourceTree = "<group>"; };
+		ED3DAEA81A40C8670096512E /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED3DAE7C1A3EB0650096512E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F94BBDF56C447EA903E728 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3DAE951A3EB0650096512E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E076FDFB6F3467C92770547 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABD18B3D598F4C2D8C448454 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED3DAE761A3EB0650096512E = {
+			isa = PBXGroup;
+			children = (
+				ED3DAE811A3EB0650096512E /* OAuthFitbitTest */,
+				ED3DAE9B1A3EB0650096512E /* OAuthFitbitTestTests */,
+				ED3DAE801A3EB0650096512E /* Products */,
+				3C8ED27B48A24D4DB3CA7251 /* Pods.xcconfig */,
+				1E076FDFB6F3467C92770547 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED3DAE801A3EB0650096512E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED3DAE7F1A3EB0650096512E /* OAuthFitbitTest.app */,
+				ED3DAE981A3EB0650096512E /* OAuthFitbitTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED3DAE811A3EB0650096512E /* OAuthFitbitTest */ = {
+			isa = PBXGroup;
+			children = (
+				ED3DAE861A3EB0650096512E /* AppDelegate.h */,
+				ED3DAE871A3EB0650096512E /* AppDelegate.m */,
+				ED3DAE891A3EB0650096512E /* ViewController.h */,
+				ED3DAE8A1A3EB0650096512E /* ViewController.m */,
+				ED3DAE8C1A3EB0650096512E /* Main.storyboard */,
+				ED3DAE8F1A3EB0650096512E /* Images.xcassets */,
+				ED3DAE911A3EB0650096512E /* LaunchScreen.xib */,
+				ED3DAE821A3EB0650096512E /* Supporting Files */,
+				ED3DAEA81A40C8670096512E /* Constants.h */,
+			);
+			path = OAuthFitbitTest;
+			sourceTree = "<group>";
+		};
+		ED3DAE821A3EB0650096512E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED3DAE831A3EB0650096512E /* Info.plist */,
+				ED3DAE841A3EB0650096512E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED3DAE9B1A3EB0650096512E /* OAuthFitbitTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED3DAE9E1A3EB0650096512E /* OAuthFitbitTestTests.m */,
+				ED3DAE9C1A3EB0650096512E /* Supporting Files */,
+			);
+			path = OAuthFitbitTestTests;
+			sourceTree = "<group>";
+		};
+		ED3DAE9C1A3EB0650096512E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED3DAE9D1A3EB0650096512E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED3DAE7E1A3EB0650096512E /* OAuthFitbitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED3DAEA21A3EB0650096512E /* Build configuration list for PBXNativeTarget "OAuthFitbitTest" */;
+			buildPhases = (
+				97AF2CE45C7747DE99FD7EBC /* Check Pods Manifest.lock */,
+				ED3DAE7B1A3EB0650096512E /* Sources */,
+				ED3DAE7C1A3EB0650096512E /* Frameworks */,
+				ED3DAE7D1A3EB0650096512E /* Resources */,
+				15C8DE5966F74E1C8378A67E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OAuthFitbitTest;
+			productName = OAuthFitbitTest;
+			productReference = ED3DAE7F1A3EB0650096512E /* OAuthFitbitTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED3DAE971A3EB0650096512E /* OAuthFitbitTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED3DAEA51A3EB0650096512E /* Build configuration list for PBXNativeTarget "OAuthFitbitTestTests" */;
+			buildPhases = (
+				ED3DAE941A3EB0650096512E /* Sources */,
+				ED3DAE951A3EB0650096512E /* Frameworks */,
+				ED3DAE961A3EB0650096512E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED3DAE9A1A3EB0650096512E /* PBXTargetDependency */,
+			);
+			name = OAuthFitbitTestTests;
+			productName = OAuthFitbitTestTests;
+			productReference = ED3DAE981A3EB0650096512E /* OAuthFitbitTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED3DAE771A3EB0650096512E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "PickAxe Mobile LLC";
+				TargetAttributes = {
+					ED3DAE7E1A3EB0650096512E = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					ED3DAE971A3EB0650096512E = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = ED3DAE7E1A3EB0650096512E;
+					};
+				};
+			};
+			buildConfigurationList = ED3DAE7A1A3EB0650096512E /* Build configuration list for PBXProject "OAuthFitbitTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED3DAE761A3EB0650096512E;
+			productRefGroup = ED3DAE801A3EB0650096512E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED3DAE7E1A3EB0650096512E /* OAuthFitbitTest */,
+				ED3DAE971A3EB0650096512E /* OAuthFitbitTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED3DAE7D1A3EB0650096512E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3DAE8E1A3EB0650096512E /* Main.storyboard in Resources */,
+				ED3DAE931A3EB0650096512E /* LaunchScreen.xib in Resources */,
+				ED3DAE901A3EB0650096512E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3DAE961A3EB0650096512E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15C8DE5966F74E1C8378A67E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97AF2CE45C7747DE99FD7EBC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED3DAE7B1A3EB0650096512E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3DAE8B1A3EB0650096512E /* ViewController.m in Sources */,
+				ED3DAE881A3EB0650096512E /* AppDelegate.m in Sources */,
+				ED3DAE851A3EB0650096512E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3DAE941A3EB0650096512E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3DAE9F1A3EB0650096512E /* OAuthFitbitTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED3DAE9A1A3EB0650096512E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED3DAE7E1A3EB0650096512E /* OAuthFitbitTest */;
+			targetProxy = ED3DAE991A3EB0650096512E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED3DAE8C1A3EB0650096512E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED3DAE8D1A3EB0650096512E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED3DAE911A3EB0650096512E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED3DAE921A3EB0650096512E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED3DAEA01A3EB0650096512E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED3DAEA11A3EB0650096512E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED3DAEA31A3EB0650096512E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C8ED27B48A24D4DB3CA7251 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OAuthFitbitTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED3DAEA41A3EB0650096512E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C8ED27B48A24D4DB3CA7251 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OAuthFitbitTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ED3DAEA61A3EB0650096512E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OAuthFitbitTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OAuthFitbitTest.app/OAuthFitbitTest";
+			};
+			name = Debug;
+		};
+		ED3DAEA71A3EB0650096512E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OAuthFitbitTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OAuthFitbitTest.app/OAuthFitbitTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED3DAE7A1A3EB0650096512E /* Build configuration list for PBXProject "OAuthFitbitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3DAEA01A3EB0650096512E /* Debug */,
+				ED3DAEA11A3EB0650096512E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED3DAEA21A3EB0650096512E /* Build configuration list for PBXNativeTarget "OAuthFitbitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3DAEA31A3EB0650096512E /* Debug */,
+				ED3DAEA41A3EB0650096512E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED3DAEA51A3EB0650096512E /* Build configuration list for PBXNativeTarget "OAuthFitbitTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3DAEA61A3EB0650096512E /* Debug */,
+				ED3DAEA71A3EB0650096512E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED3DAE771A3EB0650096512E /* Project object */;
+}
